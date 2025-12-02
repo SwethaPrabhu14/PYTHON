@@ -1,10 +1,10 @@
-print("Hello! PYTHON, Guido Van Rossum -> (1991)") # Basic Code in Python
+print("Hello! \"PYTHON\", Guido Van Rossum -> (1991)") # Basic Code in Python
 
 import sys
 print(sys.version) # Version
 
 a = 20 # Assigning a Values to Variables [a = int(10) -> Casting]
-b = float(20) # Type Conversion [B, b -> Case Sensitive]
+b = int(10.0) # Type Conversion [B, b -> Case Sensitive]
 str = ' Swetha Lokeshwaran ' # Assigning a String to a Variable -> ' ' quote
 
 print(type(a)) # Check the Data Type
@@ -49,3 +49,62 @@ print(str+"Lokii")
 
 # Format Strings
 print(f"My Name is {str} and age is {a}") # {str} -> Placeholder
+
+# Instance
+print(isinstance(a,int)) # True
+
+# Operators
+# 1. Arithmetic -> [+, -, *, /, %, **, //]
+print("Arithmetic Operators:")
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a % b)
+print(a ** b)
+print(a // b)
+
+# 2. Assignment -> [=, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=, :=]
+print("Assignment Operators:")
+print(a)
+a += b; print(a)
+a -= b; print(a)
+a *= b; print(a)
+a /= b; print(a)
+a %= b; print(a)
+a **= b; print(a)
+a //= b; print(a)
+
+# 3. Comparsion -> [==, !=, >, <, >=, <=]
+print("Comparsion Operators:")
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+# 4. Logical -> [and, or, not]
+print("Logical Operators:")
+print ((a > b) and (a < b))
+print ((a > b) or (a < b))
+print (not(a > b))
+
+# 5. Identity -> [is, is not]
+print("Identity Operators:")
+print("Swetha" is str)
+print("Swetha" is not str)
+
+# 6. Membership -> [in, not in]
+print("Membership Operators:")
+print("Swetha" in str)
+print("Swetha" not in str)
+
+# 7. Bitwise -> [&, |, ^, ~, <<, >>]
+print("Bitwise Operators:")
+print(10 & 5)
+print(10 | 5)
+print(10 ^ 5)
+print(~10)
+print(10 << 5)
+print(10 >> 5)
