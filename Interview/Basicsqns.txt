@@ -1,0 +1,200 @@
+Python Fundamentals :
+
+1. What is Python? What are its key features?
+2. Why is Python called an interpreted language?
+3. What are Python’s built-in data types?
+4. What is the difference between a list and a tuple?
+5. What is a dictionary in Python?
+6. What are variables? How does Python handle variable declarations?
+7. What are keywords in Python?
+8. Explain indentation in Python.
+9. What is type conversion? Types of type casting?
+10. How do you take input from a user in Python?
+11. Difference between == and is operator.
+12. What is the use of the pass statement?
+13. What is slicing in Python?
+14. What is the purpose of the in operator?
+15. Explain comments in Python.
+16. How do you print without a new line?
+17. What is the use of break, continue, and return?
+18. What is the difference between range and xrange?
+19. What is PEP 8?
+20. What is _name_ == "_main_"?
+
+Functions & Modules :
+
+21. What are functions in Python?
+22. Types of function arguments in Python.
+23. What are lambda functions?
+24. What are modules? How do you import them?
+25. Difference between module and package.
+26. What is pip?
+27. What are built-in functions?
+28. What is recursion?
+29. What is the purpose of docstrings?
+30. What is *args and **kwargs?
+
+Exceptions & Error Handling :
+
+31. What is an exception?
+32. Difference between syntax error and runtime error.
+33. Explain try, except, finally.
+34. What is raise used for?
+35. What are user-defined exceptions?
+
+File Handling :
+
+36. How do you open a file in Python?
+37. Difference between read(), readline(), readlines().
+38. What are file modes?
+39. How do you handle file exceptions?
+40. What is the use of with open()?
+
+Object-Oriented Programming :
+
+41. What is OOP?
+42. What are classes and objects?
+43. What is inheritance? Types of inheritance.
+44. What is polymorphism?
+45. What is encapsulation?
+46. What is abstraction?
+47. What are magic methods?
+48. What is _init_()?
+49. What is method overloading and overriding?
+50. What are class methods and static methods?
+
+Data Structures :
+
+51. Explain lists in detail.
+52. What are list comprehensions?
+53. What are set and frozenset?
+54. What is a dictionary comprehension?
+55. Explain stack and queue using Python.
+56. How to reverse a list?
+57. Difference between mutable and immutable types.
+58. What is shallow copy vs deep copy?
+59. What is a generator?
+60. What is yield keyword used for?
+
+Modules & Standard Libraries :
+
+61. What is the os module used for?
+62. What is the sys module used for?
+63. What is the math module?
+64. What is the random module?
+65. What does the datetime module do?
+66. Explain collections module.
+67. What is itertools?
+68. What is JSON handling in Python?
+69. What is enum in Python?
+70. What is virtual environment in Python?
+
+Functional Programming Concepts :
+
+71. What is map(), filter(), reduce()?
+72. What is a closure in Python?
+73. What are decorators?
+74. What is currying?
+75. Difference between lambda and normal function.
+
+Intermediate Concepts :
+
+76. What is a namespace?
+77. Difference between global and local variables.
+78. What is recursion limit in Python?
+79. What is the zip() function?
+80. What is dir() vs help()?
+81. What is monkey patching?
+82. What is an iterator?
+83. Explain the GIL (Global Interpreter Lock).
+84. What is multithreading?
+85. What is multiprocessing?
+86. Difference between thread and process.
+87. What is context manager?
+88. What is assert?
+89. What are frozen dataclasses?
+90. What is type hinting in Python?
+
+Advanced OOP & Memory :
+
+91. What is method resolution order (MRO)?
+92. Difference between _new_ and _init_.
+93. What are metaclasses?
+94. Explain garbage collection in Python.
+95. What is memory management in Python?
+96. What is reference counting?
+97. Explain weak references.
+98. What are slots in Python classes?
+99. What is object interning?
+100. What is serialization (pickling)?
+
+Advanced Modules & Concepts :
+
+101. What are coroutines?
+102. Difference between async and await.
+103. What is event loop?
+104. What is asyncio?
+105. What is multithreading with GIL issues?
+106. How to share data between processes?
+107. What is subprocess?
+108. What is functools used for?
+109. Explain memoization.
+110. What is LRU cache?
+
+Database & Networking :
+
+111. How to connect Python with MySQL/PostgreSQL?
+112. What is a cursor in DB programming?
+113. How to execute transactions in Python?
+114. What is SQLite and how to use it?
+115. What is socket programming?
+116. What is REST API?
+117. How to make API calls in Python?
+118. What is JSON parsing?
+
+Web & GUI :
+
+119. What is Flask?
+120. What is Django?
+121. What is routing in Flask/Django?
+122. Explain Django MVT architecture.
+123. What is ORM?
+124. Difference between Flask and Django.
+125. What is Tkinter?
+126. What is WSGI?
+
+Data Science, ML & Automation :
+
+127. What is NumPy?
+128. What is Pandas?
+129. What is Matplotlib/Seaborn?
+130. What is Selenium automation?
+
+Performance & Optimization :
+
+131. How do you optimize Python code?
+132. What is profiling?
+133. What are memory leaks?
+134. Explain time complexity with examples.
+135. How to use generators for performance?
+
+Security :
+
+136. What is SQL injection?
+137. How to secure passwords in Python?
+138. What is hashing?
+139. What is JWT authentication?
+140. What is HTTPS?
+
+Architecture & Deployment :
+
+141. How do you deploy a Python project?
+142. What is Docker and how to use it with Python?
+143. What is CI/CD?
+144. What is a microservice?
+145. What are unit tests?
+146. How do you write test cases in Python?
+147. What is PyTest?
+148. What is mocking?
+149. Explain logging in Python.
+150. How to package a Python application?
