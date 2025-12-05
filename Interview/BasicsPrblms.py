@@ -1,11 +1,69 @@
 # Simple Input / Output & Basics :
 
+# [5-12-2025]
+
 # 1. Write a program to print “Hello World”.
+
+# def myfunc():
+#     return "Hello World"
+# print(myfunc())
+
 # 2. Read a number and print whether it is positive, negative, or zero.
+
+# def a(n):
+#     if n == 0 :
+#         return "Zero"
+#     elif n > 0 :
+#         return "Positive numbers"
+#     else:
+#         return "Negative numbers"
+# num = int(input("Enter a number : "))
+# print(a(num))
+
 # 3. Find the largest of two numbers.
+
+# def b(num1, num2):
+#     if num1 > num2:
+#         return num1
+#     else:
+#         return num2
+# print("largest number : ", b(12, 18))
+
 # 4. Find the largest among three numbers.
+
+# def c(num1, num2, num3):
+#     if (num1 > num2) and (num1 > num3):
+#         return num1
+#     elif (num2 > num1) and (num2 > num3):
+#         return num2
+#     else:
+#         return num3
+# print("largest among three numbers : ", c(367, 456, 123))
+
 # 5. Check if a number is even or odd.
+
+# def d(num):
+#     if num % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+# print("Number is : " , d(999))
+
 # 6. Check if a number is prime.
+
+def e(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False 
+    return True
+num = int(input("Enter a Number:"))
+print(e(num))
+for i in range(num+1):
+    if e(i):
+        print(i, end=" ")
+
 # 7. Find the factorial of a number.
 # 8. Print Fibonacci series up to N terms.
 # 9. Swap two numbers without using a temporary variable.
