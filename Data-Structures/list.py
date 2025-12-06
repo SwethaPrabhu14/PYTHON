@@ -9,6 +9,8 @@ print(a) # list
 
 print(len(a)) # length of the list
 
+print(type(a)) # type
+
 b = list(("pineapple", "grapes")) # Constructor
 
 print(a[0]) # Access
@@ -32,7 +34,7 @@ del a[0] # delete the 1st item
 # del a # Entirely delete
 # a.clear() #clear
 
-# Extend -> Many of values added
+# Extend -> Many of values added :
 b.extend(a)
 print(b)
 

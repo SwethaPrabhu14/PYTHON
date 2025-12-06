@@ -42,6 +42,8 @@ print (not(a > b))
 
 # 5. Identity -> [is, is not]
 print("Identity Operators:")
+print(str == "Swetha")
+print(str != "lokesh")
 
 # 6. Membership -> [in, not in]
 print("Membership Operators:")
