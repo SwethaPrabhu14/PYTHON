@@ -51,21 +51,48 @@
 
 # 6. Check if a number is prime.
 
-def e(n):
-    if n <= 1:
-        return False
-    for i in range(2, n):
-        if n % i == 0:
-            return False 
-    return True
-num = int(input("Enter a Number:"))
-print(e(num))
-for i in range(num+1):
-    if e(i):
-        print(i, end=" ")
+# def e(n):
+#     if n <= 1:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False 
+#     return True
+# num = int(input("Enter a Number:"))
+# print(e(num))
+# for i in range(num+1):
+#     if e(i):
+#         print(i, end=" ")
+
+# [6-12-2025]
 
 # 7. Find the factorial of a number.
+
+# def f(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact = fact * i
+#     return fact
+# num = int(input("Enter a Number is : "))
+# print(f(num))
+
 # 8. Print Fibonacci series up to N terms.
+
+def g(n):
+    a, b = 0, 1
+    if n == 1:
+        return a
+    elif n == 2:
+        return b
+    for i in range(3, n+1):
+        c = a + b
+        a, b = b, c
+    return c
+num = int(input("Number is : "))
+print(g(num))
+for i in range(1, num+1):
+    print(g(i), end=" ")
+
 # 9. Swap two numbers without using a temporary variable.
 # 10. Find the square and cube of a number.
 
