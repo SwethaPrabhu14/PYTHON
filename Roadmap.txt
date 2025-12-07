@@ -1,31 +1,31 @@
 🚀 PYTHON ENGINEER COMPLETE ROADMAP
  (Basics → Advanced)
 
-✅ Python Fundamentals
-1. Introduction to Python & Installation
-2. Variables and Data Types
-3. Input/Output
-4. Operators (Arithmetic, Logical, Comparison, Bitwise)
-5. Conditional statements (if, elif, else)
-6. Loops (for, while)
-7. break, continue, pass
-8. Type casting
-9. Strings: methods, slicing, formatting (f-strings)
+✅ Python Fundamentals -> ✔
+1. Introduction to Python & Installation ✔
+2. Variables and Data Types ✔
+3. Input/Output ✔
+4. Operators (Arithmetic, Logical, Comparison, Bitwise) ✔
+5. Conditional statements (if, elif, else) ✔
+6. Loops (for, while) ✔
+7. break, continue, pass ✔
+8. Type casting ✔
+9. Strings: methods, slicing, formatting (f-strings) ✔
 
-✅ Data Structures in Python
-1. Lists, Tuples, Sets, Dictionaries
-2. List/Dictionary Comprehensions
-3. Nested structures
+✅ Data Structures in Python -> ✔
+1. Lists, Tuples, Sets, Dictionaries ✔
+2. List/Dictionary Comprehensions ✔
+3. Nested structures 
 4. Working with stacks, queues using lists/deque
 5. Sorting & Searching techniques
 
-✅ Functions & Modules
-1. Defining & calling functions
-2. Parameters (positional, keyword, default, variable-length)
-3. Lambda functions
-4. Map, Filter, Reduce
-5. Recursion
-6. Modules & Packages
+✅ Functions & Modules -> ✔
+1. Defining & calling functions ✔
+2. Parameters (positional, keyword, default, variable-length) ✔
+3. Lambda functions ✔
+4. Map, Filter, Reduce ✔
+5. Recursion ✔
+6. Modules & Packages 
 7. Virtual Environments
 
 ✅ Error Handling & File Handling
