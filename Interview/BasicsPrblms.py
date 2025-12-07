@@ -78,31 +78,104 @@
 
 # 8. Print Fibonacci series up to N terms.
 
-def g(n):
-    a, b = 0, 1
-    if n == 1:
-        return a
-    elif n == 2:
-        return b
-    for i in range(3, n+1):
-        c = a + b
-        a, b = b, c
-    return c
-num = int(input("Number is : "))
-print(g(num))
-for i in range(1, num+1):
-    print(g(i), end=" ")
+# def g(n):
+#     a, b = 0, 1
+#     if n == 1:
+#         return a
+#     elif n == 2:
+#         return b
+#     for i in range(3, n+1):
+#         c = a + b
+#         a, b = b, c
+#     return c
+# num = int(input("Number is : "))
+# print(g(num))
+# for i in range(1, num+1):
+#     print(g(i), end=" ")
+
+# [7-12-2025]
 
 # 9. Swap two numbers without using a temporary variable.
+
+# def h(a, b):
+#     a, b = b, a
+#     return a, b
+# print(h(2, 3))
+
 # 10. Find the square and cube of a number.
+
+# def i(n):
+#     a, b = n*n, n**n
+#     return a, b
+# num = int(input("Number is : "))
+# x, y = i(num)
+# print(f"Square of {num} is : {x}, Cube of {num} is : {y}")
 
 # Loops & Logic :
 
 # 11. Print all prime numbers between 1 and N.
+
+# def j(n):
+#     if n <= 1:
+#         return False
+#     for i in range(2, n):
+#         if n % i == 0:
+#             return False
+#     return True
+# num = int(input("Number is : "))
+# print(j(num))
+# for i in range(num+1):
+#     if j(i):
+#         print(i, end=", ")
+
 # 12. Print multiplication table of a number.
+
+# def  k(n):
+#     for i in range(1, n+1):
+#         print(f"Number of {n} * {i} = {n*i}")
+# num = int(input("Number is : "))
+# k(num)
+
 # 13. Count number of digits in a number.
+
+# def l(n):
+#     count = 0
+#     for i in range(n+1):
+#         count += i
+#     return count
+# num = int(input("Number is : "))
+# print(l(num))
+
 # 14. Reverse a number.
+
+# def reverse(n):
+#     rev = 0
+#     while n > 0:
+#         first = n % 10
+#         rev = rev * 10 + first
+#         n = n // 10
+#     return rev
+# num = int(input("Original Num : "))
+# a = reverse(num)
+# print(f"Reverse Num of {num} is {a}")
+
 # 15. Check if a number is palindrome.
+
+# def pal(n):
+#     org = n
+#     rev = 0
+#     while n > 0:
+#         first = n % 10
+#         rev = rev * 10 + first
+#         n = n // 10
+#     return  rev
+# num = int(input("Original Num : "))
+# a = pal(num)
+# if num == a:
+#     print(f"Palindrome -> {num}")
+# else:
+#     print(f"Not Palindrome -> {num}")
+
 # 16. Check Armstrong number.
 # 17. Sum of digits of a number.
 # 18. Find GCD and LCM of two numbers.
