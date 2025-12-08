@@ -140,8 +140,9 @@
 
 # def l(n):
 #     count = 0
-#     for i in range(n+1):
-#         count += i
+#     while n > 0:
+#         n = n // 10
+#         count += 1
 #     return count
 # num = int(input("Number is : "))
 # print(l(num))
@@ -176,10 +177,57 @@
 # else:
 #     print(f"Not Palindrome -> {num}")
 
+# [8-12-2025]
+
 # 16. Check Armstrong number.
+
+# def armstrong_num(n):
+#     temp = n
+#     sum = 0
+#     digits = len(str(n))
+#     while temp > 0:
+#         digit = temp % 10
+#         sum = sum + digit ** digits
+#         temp = temp // 10
+#     if sum == n:
+#         return "Armstrong Number"
+#     else:
+#         return "Not Armstrong Number"
+# num = int(input("Number is : "))
+# print(armstrong_num(num))
+
 # 17. Sum of digits of a number.
+
+# def sum(n):
+#     s = 0
+#     for i in range(1, n+1):
+#         s += i
+#     return s
+# num = int(input("Num is : "))
+# print(sum(num))
+
 # 18. Find GCD and LCM of two numbers.
+
+# def numbers(a, b):
+#     x, y = a, b
+#     while y != 0:
+#         x, y = y, x % y
+#     gcd = x
+#     lcm = (a * b) // gcd
+#     return gcd, lcm
+# print(numbers(10, 5))
+
 # 19. Print factors of a number.
+
+# def factors(n):
+#     fac = []
+#     for i in range(1, n+1):
+#         if n % i == 0:
+#             fac.append(i)
+#     return fac
+# num = int(input("Number is : "))
+# print(factors(num))
+
 # 20. Convert decimal to binary manually (without bin()).
 
 # Lists & Basic Data Structures :
