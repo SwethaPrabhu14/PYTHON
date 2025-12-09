@@ -32,7 +32,14 @@ print(str.split(",")) # Splitting
 print("Concatenation of : ",str+"Lokesh")
 
 # Format Strings
-print(f"My Name is {str} and age is {age}") # {str} -> Placeholder
+print(f"My Name is {str} and age is {age}") # {str} -> Placeholder, : -> Modifiers
 
 # Instance
 print(isinstance(age,int)) # True
+
+# None :
+
+x = None
+print(x)
+print(type(x))
+print(bool(None))

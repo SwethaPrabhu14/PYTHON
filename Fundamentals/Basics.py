@@ -12,3 +12,6 @@ print(type(a)) # Check the Data Type
 # Built - in Modules
 import random
 print(random.randrange(1,10))
+
+input() # -> input
+print() # -> output

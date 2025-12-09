@@ -79,3 +79,12 @@ print(sys.getrecursionlimit())
 print(list(range(10)))
 print(list(range(1,10)))
 print(list(range(1,10,2)))
+
+# Exporting the module :
+def greeting(name):
+    print("Hello" + name)
+
+person1 = {
+    "name" : "Swey",
+    "age" : 20
+}

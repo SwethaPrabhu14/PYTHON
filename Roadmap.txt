@@ -25,13 +25,13 @@
 3. Lambda functions ✔
 4. Map, Filter, Reduce ✔
 5. Recursion ✔
-6. Modules & Packages 
-7. Virtual Environments
+6. Modules & Packages ✔ 
+7. Virtual Environments ✔
 
-✅ Error Handling & File Handling
-1. try, except, finally, else
+✅ Error Handling & File Handling ✔
+1. try, except, finally, else ✔
 2. Custom exceptions
-3. Working with files (txt, json, csv)
+3. Working with files (txt, json, csv) ✔
 4. Context manager (with)
 
 ✅ Object-Oriented Programming (OOP)
