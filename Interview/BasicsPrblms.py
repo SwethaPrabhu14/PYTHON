@@ -228,13 +228,58 @@
 # num = int(input("Number is : "))
 # print(factors(num))
 
+# [9-12-2025]
+
 # 20. Convert decimal to binary manually (without bin()).
+
+# def decimal_binary(n):
+#     rem = []
+#     while n > 0:
+#         remainder = n % 2
+#         rem.append(remainder)
+#         n = n // 2
+#     rem.reverse()
+#     return " ".join(str(x) for x in rem)
+# num = int(input("Enter a Number : "))
+# print(decimal_binary(num))
 
 # Lists & Basic Data Structures :
 
 # 21. Find the largest element in a list.
+
+# def largest_num(number):
+#     max = number[0]
+#     for num in number:
+#         if num > max:
+#             max = num
+#     return max
+# list = [12, 45, 10, 26, 30]
+# print(largest_num(list))
+
 # 22. Find the smallest element in a list.
+
+# def Smallest_num(number):
+#     min = number[0]
+#     for num in number:
+#         if num < min:
+#             min = num
+#     return min
+# list = [12, 45, 10, 26, 30]
+# print(Smallest_num(list))
+
 # 23. Count occurrences of an element in a list.
+
+def count_occ(number):
+    a = {}
+    for num in number:
+        if num in a:
+            a[num] += 1
+        else:
+            a[num] = 1
+    return a
+list = [10, 20, 30, 10, 50]
+print(count_occ(list))
+
 # 24. Reverse a list without using reverse().
 # 25. Remove duplicates from a list.
 # 26. Find the sum of all elements in a list.
