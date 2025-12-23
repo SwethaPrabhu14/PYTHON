@@ -34,8 +34,8 @@
 3. Working with files (txt, json, csv) ✔
 4. Context manager (with)
 
-✅ Object-Oriented Programming (OOP)
-1. Classes & Objects
+✅ Object-Oriented Programming (OOP) ✔
+1. Classes & Objects ✔
 2. Methods & Constructors
 3. Inheritance (single, multiple, multilevel, hybrid)
 4. Polymorphism
