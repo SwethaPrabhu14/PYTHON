@@ -269,18 +269,36 @@
 
 # 23. Count occurrences of an element in a list.
 
-def count_occ(number):
-    a = {}
-    for num in number:
-        if num in a:
-            a[num] += 1
-        else:
-            a[num] = 1
-    return a
-list = [10, 20, 30, 10, 50]
-print(count_occ(list))
+# def count_occ(number):
+#     a = {}
+#     for num in number:
+#         if num in a:
+#             a[num] += 1
+#         else:
+#             a[num] = 1
+#     return a
+# list = [10, 20, 30, 10, 50]
+# print(count_occ(list))
+
+# [23-12-2025]
 
 # 24. Reverse a list without using reverse().
+
+def reverse_list(num):
+    # sorting
+    n = len(num)
+    for i in range(n):
+        for j in range(i+1, n):
+            if num[i] > num[j]:
+                num[i], num[j] = num[j], num[i]
+    # reverse
+    rev = []
+    for i in range(n-1, -1, -1):
+        rev.append(num[i])
+    return rev
+list = [10, 30, 55, 60, 20]
+print(reverse_list(list))
+
 # 25. Remove duplicates from a list.
 # 26. Find the sum of all elements in a list.
 # 27. Find the average of numbers in a list.
