@@ -45,3 +45,21 @@ a1.greet()
 print(a1.name)
 print(a1.age)
 print(a1.spl)
+
+# Inner Classes :
+
+# Creating a inner class
+class Outer:
+  def __init__(self):
+    self.name = "Outer Class"
+  class Inner:
+    def __init__(self, outer):
+      self.outer = outer
+      self.name = "Inner Class" # Accessing outer class from inner class
+    def display(self):
+      print("Hello, Inner class")
+      print(f"Outer class name: {self.outer.name}")
+outer = Outer()
+inner = outer.Inner(outer) # Accessing inner class from outside
+inner.display()
+print(outer.name)
