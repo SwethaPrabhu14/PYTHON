@@ -284,26 +284,90 @@
 
 # 24. Reverse a list without using reverse().
 
-def reverse_list(num):
-    # sorting
-    n = len(num)
-    for i in range(n):
-        for j in range(i+1, n):
-            if num[i] > num[j]:
-                num[i], num[j] = num[j], num[i]
-    # reverse
-    rev = []
-    for i in range(n-1, -1, -1):
-        rev.append(num[i])
-    return rev
-list = [10, 30, 55, 60, 20]
-print(reverse_list(list))
+# def reverse_list(num):
+#     # sorting
+#     n = len(num)
+#     for i in range(n):
+#         for j in range(i+1, n):
+#             if num[i] > num[j]:
+#                 num[i], num[j] = num[j], num[i]
+#     # reverse
+#     rev = []
+#     for i in range(n-1, -1, -1):
+#         rev.append(num[i])
+#     return rev
+# list = [10, 30, 55, 60, 20]
+# print(reverse_list(list))
+
+# [7-1-2026]
 
 # 25. Remove duplicates from a list.
+
+# def duplicate_list(num):
+#     seen = []
+#     for i in num:
+#         if i not in seen:
+#             seen.append(i)
+#     return sorted(seen)
+# number = [12, 14, 15, 12, 10, 13]
+# print(duplicate_list(number))
+
 # 26. Find the sum of all elements in a list.
+
+# def sum_ele(num):
+#     sum = 0
+#     for i in num:
+#         sum += i
+#     return sum
+# number = [1, 2, 3, 4, 5]
+# print(sum_ele(number))
+
 # 27. Find the average of numbers in a list.
+
+# def avg(num):
+#     total = 0
+#     for i in num:
+#         total += i
+#     return total/len(num) # Proper Avg -> Using Floor div(//) = 3
+# number = [1, 2, 3, 4, 5]
+# print(avg(number))
+
 # 28. Print even and odd numbers from a list.
+
+# def even_odd(num):
+#     even = []
+#     odd = []
+#     for i in num:
+#         if i % 2 == 0:
+#             even.append(i)
+#         else:
+#             odd.append(i)
+#     return even, odd
+# number = [1, 2, 3, 4, 5, 6, 7, 8]
+# print(even_odd(number))
+
 # 29. Find the second largest number in a list.
+
+def sec_largest(num):
+
+    # Methods with use :
+    # unique = list(set(num))   # duplicates remove
+    # unique.sort()             # sort list
+    # return unique[-2]         # second largest
+
+    # Methods without use :
+    largest = num[0]
+    second = num[0]
+    for i in num:
+        if i > largest:
+            second = largest
+            largest = i
+        elif i != largest and i > second:
+            second = i
+    return second
+number = [1, 2, 3, 4, 5]
+print(sec_largest(number))
+
 # 30. Sort a list manually (bubble sort).
 
 # Strings :
